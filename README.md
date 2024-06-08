@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💸 Finext
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-v14-blue)
+![Hono](https://img.shields.io/badge/Hono-API-green)
+![Clerk](https://img.shields.io/badge/Clerk-Auth-orange)
+![Neon](https://img.shields.io/badge/Neon-DB-red)
+![Drizzle](https://img.shields.io/badge/Drizzle-ORM-yellow)
+![Bun](https://img.shields.io/badge/Bun-JS-purple)
 
-First, run the development server:
+Welcome to **Finext** - the leading SaaS solution for all your financial recording and management needs. With cutting-edge technology and a user-friendly interface, we help you manage your finances more easily and efficiently. built with a modern tech stack, designed to provide the best performance and user experience. This project is powered by Next.js, Hono, Clerk, Neon, Drizzle, and Bun.
+
+## 🚀 Tech Stack
+
+- **Frontend**: [Next.js](https://nextjs.org/) with App Router and TypeScript
+- **Backend**: [Hono](https://hono.dev/) for API handling
+- **Authentication**: [Clerk](https://clerk.dev/)
+- **Database**: Serverless PostgreSQL by [Neon](https://neon.tech/)
+- **ORM**: [Drizzle](https://github.com/drizzle-team/drizzle-orm)
+- **Runtime**: [Bun](https://bun.sh/)
+
+## 🔧 Getting Started
+
+### Prerequisites
+
+- Node.js (v16+)
+- Bun (v0.1.2+)
+- PostgreSQL Database (Serverless by Neon)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/zakydfls/finext.git
+   cd finext
+   ```
+
+2. **Install dependencies:**
+
+   Using Bun:
+
+   ```bash
+   bun install
+   ```
+
+3. **Setup environment variables:**
+
+   Create a `.env` file in the root directory and add the following variables:
+
+   ```plaintext
+   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your clerk publishable key
+   CLERK_PUBLISHABLE_KEY=your clerk publishable key
+   CLERK_SECRET_KEY=your clerk secret key
+
+   NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+   NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+   ```
+
+4. **Run the development server:**
+
+   ```bash
+   bun dev
+   ```
+
+   Your app should now be running on [http://localhost:3000](http://localhost:3000).
+
+## 🛠️ Building and Deployment
+
+### Build
+
+To build the application for production, run:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bun build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Deploy
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Deploy the application using your preferred deployment method. Ensure that your environment variables are correctly set up on the server.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📚 Documentation
 
-## Learn More
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Hono Documentation](https://hono.dev/docs)
+- [Clerk Documentation](https://clerk.dev/docs)
+- [Neon Documentation](https://neon.tech/docs)
+- [Drizzle Documentation](https://github.com/drizzle-team/drizzle-orm)
+- [Bun Documentation](https://bun.sh/docs)
 
-To learn more about Next.js, take a look at the following resources:
+## 🤝 Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions are welcome! Please open an issue or submit a pull request for any bugs or enhancements.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 📜 License
 
-## Deploy on Vercel
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👥 Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For any inquiries, please contact [zakydaffeka26@gmail.com](mailto:zakydaffeka26@gmail.com).
+
+---
+
+Thank you for checking out **Finext**! Hope you enjoy using it. 🚀
+
+---
